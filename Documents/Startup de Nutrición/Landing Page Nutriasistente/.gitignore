@@ -1,0 +1,12 @@
+# Archivos personales del sistema que no se deben subir
+*.history
+*.bash_profile
+*.bashrc
+*.zshrc
+*.RData
+*.Rhistory
+*.CFUserTextEncoding
+.DS_Store
+.gitconfig
+.gitignore_global
+.condarc

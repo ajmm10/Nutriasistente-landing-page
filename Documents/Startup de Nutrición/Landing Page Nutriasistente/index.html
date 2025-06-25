@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NutriAsistente</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f8f9fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+    .benefits {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+    }
+    .benefit {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      flex: 1 1 calc(50% - 20px);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    form {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    input, select, button {
+      width: 100%;
+      padding: 12px;
+      margin-top: 12px;
+      font-size: 1em;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>NutriAsistente</h1>
+    <p>Tu camino hacia una mejor salud empieza aquí</p>
+    <a href="#registro"><button>Quiero ser de los primeros</button></a>
+  </header>
+
+  <section>
+    <h2>✨ Beneficios que tendrás</h2>
+    <div class="benefits">
+      <div class="benefit">🥗 Planes personalizados por nutriólogos</div>
+      <div class="benefit">🤖 Inteligencia artificial que te guía</div>
+      <div class="benefit">📲 Seguimiento desde tu celular</div>
+      <div class="benefit">🧑‍⚕️ Atención sin salir de casa</div>
+    </div>
+  </section>
+
+  <section id="registro">
+    <h2>🚀 Únete a nuestra lista de interesados</h2>
+    <form action="https://formsubmit.co/tu-correo@ejemplo.com" method="POST">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="correo" placeholder="Tu correo electrónico" required>
+      <select name="objetivo" required>
+        <option value="">¿Cuál es tu objetivo?</option>
+        <option value="bajar">Bajar de peso</option>
+        <option value="ganar">Ganar músculo</option>
+        <option value="salud">Comer mejor / Mejorar salud</option>
+        <option value="otro">Otro</option>
+      </select>
+      <select name="interesado">
+        <option value="">¿Te gustaría probar la app gratis?</option>
+        <option value="sí">Sí</option>
+        <option value="no">No</option>
+      </select>
+      <button type="submit">¡Quiero mejorar mi salud!</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 NutriAsistente. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
